@@ -1,7 +1,7 @@
 import React from 'react';
 import BackToTop from "./BackToTop";
 import Helmet from "./Helmet";  //left off here
-import TextLoop from "react-text-loop";
+import TextLoop from "./TextLoop";
 import HeaderThree from './HeaderThree'; //got
 import FooterTwo from "./FooterTwo"; //got
 import TabTwo from "./TabTwo"; //got
@@ -37,15 +37,15 @@ const PortfolioLanding = () => {
                                         <div className={`inner ${value.textPosition}`}>
                                             {value.category ? <span>{value.category}</span> : ''}
                                             <h1 className="title">Hi, I’m Logan.<br/>
-                                            <TextLoop>
-                                                <span>React.js</span>
-                                                <span>JavaScript</span>
-                                                <span>Node.js</span>
-                                                <span>HTML & CSS</span>
-                                                <span>PostgreSQL</span>
-                                                <span>SQL Server</span>
-                                                <span>C#</span>
-                                            </TextLoop>{" "}
+                                            <TextLoop
+                                                items={[
+                                                    "React.js",
+                                                    "JavaScript",
+                                                    "Node.js",
+                                                    "HTML & CSS",
+                                                    "PostgreSQL",
+                                                    "SQL Server",
+                                                    "C#",]} />
                                             </h1>
                                             <h2>Full Stack Web Developer</h2>
                                             {value.description ? <p className="description">{value.description}</p> : ''}

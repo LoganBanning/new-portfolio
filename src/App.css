@@ -9,3 +9,10 @@
     animation: logo-spin infinite 20s linear;
   }
 }
+.lb-text-loop {
+  animation: lb-fade 400ms ease;
+}
+@keyframes lb-fade {
+  from { opacity: 0; transform: translateY(4px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
