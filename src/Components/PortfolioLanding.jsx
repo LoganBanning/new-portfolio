@@ -1,13 +1,12 @@
 import React from 'react';
-import ScrollToTop from 'react-scroll-up';
-import { FiChevronUp } from "react-icons/fi";
+import BackToTop from "./BackToTop";
 import Helmet from "./Helmet";  //left off here
 import TextLoop from "react-text-loop";
-import HeaderThree from "../component/header/HeaderThree";
-import FooterTwo from "../component/footer/FooterTwo";
-import TabTwo from "../elements/tab/TabTwo";
-import ContactThree from "../elements/contact/ContactThree";
-import PortfolioList from "../elements/portfolio/PortfolioList";
+import HeaderThree from './HeaderThree'; //got
+import FooterTwo from "./FooterTwo"; //got
+import TabTwo from "./TabTwo"; //got
+import ContactThree from "./ContactThree"; //got
+import PortfolioList from "./PortfolioList"; // got
 
 const SlideList = [
     {
@@ -124,9 +123,7 @@ const PortfolioLanding = () => {
             <FooterTwo />
             {/* Start Back To Top */}
             <div className="backto-top">
-                <ScrollToTop showUnder={160}>
-                    <FiChevronUp />
-                </ScrollToTop>
+                <BackToTop showUnder={160} />
             </div>
             {/* End Back To Top */}
             
