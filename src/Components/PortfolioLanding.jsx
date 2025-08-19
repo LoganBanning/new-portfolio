@@ -69,7 +69,7 @@ const PortfolioLanding = () => {
                             <div className="row row--35 align-items-center">
                                 <div className="col-lg-5">
                                     <div className="thumbnail">
-                                        <img className="w-100" src="/assets/images/bg/headshot-logan.jpg" alt="Picture of Logan Banning"/>
+                                        <img className="w-100" src="/assets/images/headshot-logan.jpg" alt="Picture of Logan Banning"/>
                                     </div>
                                 </div>
                                 <div className="col-lg-7">

@@ -1,0 +1,143 @@
+/*********************************************************************************
+
+	Template Name: Trydo React Degital Agency Template
+	Note: This is style css.
+
+**********************************************************************************/
+
+/**************************************************************
+	
+	STYLESHEET INDEXING
+	|
+	|
+	|___ Default Styles
+	|	|
+	|	|___ variables
+	|	|___ mixins
+	|	|___ reset
+	|	|___ typography
+	|	|___ extend
+	|	|___ animations
+	|	|___ shortcode
+	|	|___ spacing
+	|
+	|
+	|___Header Styles
+	|	|___ header
+	|	|___ mainmenu
+	|
+	|
+	|___Inner Styles
+	|	|___ breadcrump 
+	|	|___ section-title 
+	|	|___ button
+	|	|___ pagination
+	|	|___ socialicon
+	|	|___ footer
+	|
+	|___Elements Styles
+	|	|___ portfolio 
+	|	|___ service 
+	|	|___ slider 
+	|	|___ counterup 
+	|	|___ testimonial 
+	|	|___ brand 
+	|	|___ team 
+	|	|___ callto-action 
+	|	|___ tab 
+	|	|___ accordion 
+	|	|___ list 
+	|	|___ contact 
+	|
+	|___BLog Styles
+	|	|___ blog 
+	|	|___ blog-details 
+	|
+	|___Template Styles
+	|	|___ about 
+	|	|___ portfolio-details
+	|	|___ service-details
+	|	|___ preview
+	|
+	|
+	|___ END STYLESHEET INDEXING
+
+***************************************************************/
+
+
+/**************************************
+    Default Styles
+***************************************/
+@use 'default/variables' as *;
+@use 'default/mixins' as *;
+@use 'default/reset' as *;
+@use 'default/typography' as *;
+@use 'default/extend' as *;
+@use 'default/animations' as *;
+@use 'default/shortcode' as *;
+@use 'default/spacing' as *;
+
+
+
+/**************************************
+    Header Styles
+***************************************/
+
+@use 'header/header' as *;
+@use 'header/mainmenu' as *;
+
+
+/**************************************
+    Inner Styles
+***************************************/
+
+@use 'common/breadcrump' as *;
+@use 'common/section-title' as *;
+@use 'common/button' as *;
+@use 'common/pagination' as *;
+@use 'common/socialicon' as *;
+@use 'common/footer' as *;
+
+
+
+/**************************************
+    Elements Styles
+***************************************/
+
+@use 'elements/portfolio' as *;
+@use 'elements/service' as *;
+@use 'elements/slider' as *;
+@use 'elements/counterup' as *;
+@use 'elements/testimonial' as *;
+@use 'elements/brand' as *;
+@use 'elements/team' as *;
+@use 'elements/callto-action' as *;
+@use 'elements/tab' as *;
+@use 'elements/accordion' as *;
+@use 'elements/list' as *;
+@use 'elements/contact' as *;
+@use 'elements/progress' as *;
+@use 'elements/column' as *;
+@use 'elements/404' as *;
+@use 'elements/pricing' as *;
+
+
+
+/**************************************
+    Blog Styles
+***************************************/
+
+@use 'blog/blog' as *;
+@use 'blog/blog-details' as *;
+
+
+
+/**************************************
+    Template Styles
+***************************************/
+
+@use 'template/about' as *;
+@use 'template/portfolio-details' as *;
+@use 'template/service-details' as *;
+@use 'template/dark-version' as *;
+@use 'template/preview' as *;
